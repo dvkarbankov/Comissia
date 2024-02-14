@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <title>Адаптивная страница</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header class="card" style="height: 3.rem; background-image: url(./images/background.jpg);">
+        <div class="card-body bg-color">
+
+            <img class="align-self-center" height="60px" src="https://sun9-76.userapi.com/impg/oHQFuueI7oaF5psIGLzSssaSC2G7zAzFUyJkaQ/k1oYVZQyhjM.jpg?size=604x417&quality=95&sign=87b51eb91fd97b1f400143295baaf0e8&type=album"> <span> Кондитерский завод "Печенька"</span> <br>
+            <br> <a href="https://www.google.com/maps/"> АДРЕСА МАГАЗИНОВ</a><br>
+            <a href="https://vk.com/" target="_blank"><img src="https://antidomofon.ru/files/vk_icon.png" width="30px"></a>
+            <a href="https://tlgrm.ru/" ><img src="https://i.pinimg.com/736x/6a/45/56/6a4556c6e1c7e7d39f6e163f826f837b.jpg" width="30px"></a>
+
+        </div>
+    </header>
+
+      <div class="card">
+          <div class="card-body">
+              <ul class="nav nav-tabs">
+                  <li class="nav-item"><a class="nav-link " href="./index.html">О кондитерской</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="./shop.html">Каталог кондитерских изделий</a>
+                  </li>
+                  <li class="nav-item"> <a class="nav-link active" href="./order.html">Оформить заказ печенек</a></li>
+              </ul>
+          </div>
+
+  <div class="container">
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+      <p>Для поисковика:<input name="q" type="Text" value="search"></p>
+         <fieldset class="personall">
+          <div class="form-group">
+            <span id="lichnie">Личные данные</span><br>
+
+            <label for="name">Имя:</label>
+            <input name="name" id="name" type="text" class="form-control" value="Дмитрий" placeholder="Введите имя:">
+          </div>
+          <div class="form-group">
+            <label for="surname">Фамилию:</label>
+            <input name="surname" id="surname" type="text" class="form-control" value="Иванов" placeholder="Введите фамилию:">
+          </div>
+          <div class="form-group">
+            <label for="phone">Телефон:</label>
+            <input type="tel" value="89777777777" id="phone" name="phone" value="89777777777" class="form-control" placeholder="Введите телефон:">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input name="email" id="email" type="email" class="form-control" placeholder="Email@gmail.com" value="ivanov@yandex.ru">
+          </div>
+          <div class="form-group">
+            <label for="password">Пароль:</label>
+            <input name="hidden" id="password" type="password" class="form-control" placeholder="Введите пароль:" value="2288">
+          </div>
+
+      <button type="submit" class="btn btn-success" name="submit" value="Отправить">Отправить</button>
+        </fieldset>
+    </form>
+
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+      <div class="form-group">
+        <p>Для поисковика:<input name="q" type="Text" value="search"></p>
+      </div>
+      <div class="form-group">
+        <fieldset>
+          <legend>Как вы собираетесь приобрести товар?</legend>
+          <div class="form-check">
+            <input type="radio" id="delivery" name="delivery" value="delivery" class="form-check-input">
+            <label for="kraken" class="form-check-label">Доставка</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" id="pickup" name="pickup" value="pickup" class="form-check-input">
+            <label for="sasquatch" class="form-check-label">Самовывоз</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" id="book" name="book" value="book" class="form-check-input">
+            <label for="mothman" class="form-check-label">Зарезервировать</label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="form-group">
+        <label for="calendar">Введите дату доставки:</label>
+        <input type="date" name="calendar" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="textarea">Введите адрес доставки:</label>
+        <textarea name="textarea" id="textarea" class="form-control" placeholder="Введите адрес доставки: город, улица, подъезд, этаж, *домофон для курьера"></textarea>
+      </div>
+
+      <div class="form-check">
+        <input name="checkbox" id="checkbox" type="checkbox" class="form-check-input">
+        <label for="checkbox" class="form-check-label">Я согласен(-на) получать информационные и рекламные рассылки</label>
+      </div>
+      <div class="form-group">
+      <br><p>Откуда Вы узнали о нашем заводе?</br></p>
+        <input name="checkbox_man" id="checkbox_man" type="checkbox" placeholder="friends">
+        <label for="checkbox"></label> От друзей
+
+        <br><input name="checkbox_girl" id="checkbox_girlc" type="checkbox" placeholder="adds">
+        <label for="checkbox"></label> Реклама в телевидение
+
+        <br><input name="checkbox_girl" id="checkbox_girlc" type="checkbox" placeholder="internet">
+        <label for="checkbox"></label> Реклама в интернете</br>
+
+
+  </div>
+    <button type="submit" class="btn btn-success" name="submit" value="Отправить">Отправить</button>
+        </fieldset>
+      <!-- Остальной код формы здесь -->
+
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.14.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
